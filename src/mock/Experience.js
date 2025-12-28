@@ -1,0 +1,7 @@
+import { Briefcase } from "lucide-react";
+
+export const expData = [
+    { id: crypto.randomUUID(), icon: Briefcase, position: 'Backend Developer', company: 'UTSI Universidad Catolica Boliviana "San Pablo"', description: 'Desarrollo y debugging de caracteristicas del sistema academico nacional SIAAN para el area de gestion academica (registros, habilitacion, confirmaciones y desconfirmaciones de notas), gestion administrativa (asignacion de secretarias a direcciones de carrera)', startDate: '2022', endDate: '2023', stack: ['.Net Core', 'Oracle'] },
+    { id: crypto.randomUUID(), icon: Briefcase, position: 'Frontend Developer', company: 'Salamanca Solutions', description: 'Consultoria en el desarollo de una web app para un centro de acogida con sede en Estados Unidos. Desarrollo de funcionalidades para gestion del ingreso de acogida entre niños y adolescentes.', startDate: '2019', endDate: '2019', stack: ['Angular 8', 'GraphQL', 'Microservices', 'AWS Cognito'] },
+    { id: crypto.randomUUID(), icon: Briefcase, position: 'Trainee Frontend Developer', company: 'AITBOL', description: 'Desarollo de un MVP para una empresa de transporte de carga maritima. Investigacion y puesta a prueba de un prototipo en blockchain con un frontend en Angular 8 para la gestion de controles de carga maritima en puestos de control', startDate: '2017', endDate: '2017', stack: ['Angular', 'Ethereum Blockchain'] },
+]
